@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+	<meta charset="utf-8">
+	<title>Clases</title>
+	<link rel="icon" type="image/x-icon" href="FaviconClases.jpg">
+	<style>
+	
+	body{background-image:url("Clases.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 100%;
+	font-family:Copperplate, Papyrus, fantasy;
+	}
+	
+	div.inicio{color: #d7b877;
+	margin-top:5%;
+	margin-left:20%;
+	text-align:center;
+	width:60%;
+	background: rgb(20,36,0);
+	background: linear-gradient(90deg, rgba(20,36,0,0) 0%, rgba(150,145,20,0.7315301120448179) 50%, rgba(0,212,255,0) 100%);
+	}
+			
+	div.menu {
+	margin:auto;
+	font-weight:bold;
+	width:80%;
+	text-align:center;
+	letter-spacing:10px;
+	margin-top:100px;
+	}
+			
+	ul, ol {
+	list-style:none;
+	}
+			
+	.nav li a {
+	color: #d7b877;
+	box-shadow: 0px 0px 5px 5px #ef8b09;
+	background-color:white;
+	border-radius:30px;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+	border: 2px solid white;
+	}
+		
+	.nav li a:hover {
+	background-color:#f3e38f;
+	color:white;
+	}
+			
+	.nav li ul {
+	display:none;
+	position:absolute;
+	width:500px;
+	}
+			
+	.nav li:hover > ul {
+	display:block;
+	}
+			
+	.nav li ul li {
+	position:relative;
+	}
+			
+	.nav li ul li ul {
+	right:-140px;
+	top:0px;
+	}
+	
+	div.contenedor{
+    position: relative;
+	display:block;
+	margin-top:80px;
+	margin-left:230px;
+	font-weight:bold;
+	font-size:20px;
+	}
+	
+	div.lista{
+    position: absolute;
+	top: 10px;
+	left: 40px;
+	}
+	
+	ol.romano{list-style-type:upper-roman;
+	}
+	
+	h3{margin:auto;
+	text-align:center;
+	text-decoration:underline;
+	}
+	
+	</style>
+</head>
+<body>
+	<div class="inicio">
+	<h1>Elige la clase de la que quieras saber más información</h1>
+	</div>
+	<div class="menu">
+		<ul class="nav">
+			<li><a href="ClaseAstrologo.html">Astrólogo</a></li>
+			<li><a href="ClaseGuerrero.html">Guerrero</a></li>
+			<li><a href="ClasePrisionero.html">Prisionero</a></li>
+			<li><a href="ClaseSamurai.html">Samurai</a>
+				<ul>
+					<li><a href="ClaseSamurai.html">(Una de las más usadas)</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>	
+	<div class="contenedor">
+		<img src="FondoLista.jpg" width="90%" height="400px"/>
+			<div class="lista">
+				<ol class="romano"><h3>Nombre y significado de las estadísticas a tener en cuenta:</h3>
+					<li>Vigor - Determina la vida del jugador.</li>
+					<li>Mente - Determina el maná del jugador.</li>
+					<li>Aguante - Determina la resistencia del jugador.</li>
+					<li>Fuerza - Necesario para empuñar armas pesadas. Aumenta la potencia de ataque de las armas que escalan con fuerza.</li>
+					<li>Destreza - Necesario para empuñar armas avanzadas. Reduce el tiempo de lanzamiento de hechizos, el daño de caída y dificulta las caídas a caballo.</li>
+					<li>Inteligencia - Aumenta la potencia mágica de los hechizos que escalan con inteligencia y mejora la defensa ante magia.</li>
+					<li>Fe - Necesario para realizar encantamientos sagrados.</li>
+					<li>Arcano - Determina el descubrimiento. Influye en la resistencia a la muerte y a algunos hechizos y encantamientos.</li>
+				</ol>		
+			</div>	
+	</div>
+</body>
+</html>
